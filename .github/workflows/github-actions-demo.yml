@@ -1,8 +1,8 @@
 name: GitHub Actions Demo
-run-name: My checks 🚀
+run-name: My checks
 on: [push]
 jobs:
-  Explore-GitHub-Actions:
+  My checks:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code

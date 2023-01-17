@@ -8,6 +8,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
       - run: cd src/main/java
+      - run: cd src
       - run: ls
       - run: javac App.java
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."

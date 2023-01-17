@@ -5,6 +5,8 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
       - run: cd src/main/java
       - run: javac App.java
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."

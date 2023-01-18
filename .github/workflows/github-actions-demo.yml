@@ -2,7 +2,7 @@ name: GitHub Actions Demo
 run-name: My_checks
 on: pull_request
 jobs:
-  My checks:
+  My-checks:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code

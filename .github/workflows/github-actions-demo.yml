@@ -1,5 +1,5 @@
 name: GitHub Actions Demo
-run-name: My checks
+run-name: My_checks
 on: pull_request
 jobs:
   My checks:
